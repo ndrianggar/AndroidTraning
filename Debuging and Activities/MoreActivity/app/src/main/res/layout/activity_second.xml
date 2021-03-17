@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    >
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="100dp"
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:text="Second Activity" />
+        android:id="@+id/editText"
+        android:hint="Masukkan nama" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnFinish"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:onClick="goToHome"
-        android:text="BackHome" />
+        android:onClick="sendBackData"
+        android:text="Finish" />
+
+    <TextView
+        android:id="@+id/viewGetFirstActivity"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:textSize="30dp"
+        android:text="Second Activity" />
 
 
 </LinearLayout>
