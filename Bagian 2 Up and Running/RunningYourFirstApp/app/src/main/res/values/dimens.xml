@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal">170dp</dimen>
+    <dimen name="activity_vertical">120dp</dimen>
+
+</resources>
