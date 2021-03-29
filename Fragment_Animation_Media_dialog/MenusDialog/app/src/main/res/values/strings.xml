@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MenusDialog</string>
+    <string name="settings">Settings</string>
+    <string name="menu_archive">archive</string>
+    <string name="menu_delete">delete</string>
+</resources>

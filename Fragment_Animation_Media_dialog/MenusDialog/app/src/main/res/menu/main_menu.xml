@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hendri="http://schemas.android.com/apk/res-auto">
+        <item android:id="@+id/action_settings"
+            android:title="@string/settings"
+            android:orderInCategory="2"
+            hendri:showAsAction="always"
+            android:icon="@drawable/ic_baseline_apps_24"
+            />
+        <item android:id="@+id/action_second"
+            android:title="second"
+            android:tooltipText="Ini menu bro bukan bakwan"
+            android:orderInCategory="1"
+            hendri:showAsAction="always"
+            android:icon="@drawable/ic_baseline_class_24"
+            />
+        <item android:id="@+id/action_third"
+            android:title="third"
+            android:orderInCategory="3"
+            hendri:showAsAction="always"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            />
+</menu>
+
+<!--
+        jika ingin menyembunyikan menu didalam 1 button
+
+        <item android:id="@+id/action_settings"
+            android:title="@string/settings"
+            android:orderInCategory="2"
+            />
+
+        <item android:id="@+id/action_second"
+            android:title="second"
+            android:orderInCategory="1"
+            android:icon="@drawable/ic_baseline_apps_24"
+
+            />
+        <item android:id="@+id/action_third"
+            android:title="third"
+            android:orderInCategory="3"
+
+            />
+!-->
