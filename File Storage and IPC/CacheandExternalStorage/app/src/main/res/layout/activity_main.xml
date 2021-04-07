@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Some Information" />
+
+    <EditText
+        android:id="@+id/dataSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Data Be Save"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/internalCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveinternalCache"
+        android:text="INTERNAL CACHE" />
+
+    <Button
+        android:id="@+id/externalCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveexternalCache"
+        android:text="EXTERNAL CACHE" />
+
+    <Button
+        android:id="@+id/externalPrivate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveexternalPrivate"
+        android:text="EXTERNAL PRIVATE" />
+
+    <Button
+        android:id="@+id/externalPublic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveexternalPublic"
+        android:text="EXTERNAL PUBLIC" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToNext"
+        android:text="NEXT" />
+</LinearLayout>
