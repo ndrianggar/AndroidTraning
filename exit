@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [33mcommit 376d1b8e8ca1e382805a875e77608651f81deea7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
 Author: Hendri <ndrianggar@gmail.com>
 Date:   Thu Apr 1 11:44:37 2021 +0700
@@ -47,6 +48,9 @@ Date:   Mon Mar 29 16:12:14 2021 +0700
     Menu dialog Part 2
 
 [33mcommit f2932f62386ac5010412382651a2ffaa4f51639f[m
+=======
+[33mcommit f2932f62386ac5010412382651a2ffaa4f51639f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+>>>>>>> fefb778f926b4448f6008e6d69c5c1a7ffbd794d
 Author: Hendri <ndrianggar@gmail.com>
 Date:   Tue Mar 23 16:39:04 2021 +0700
 
